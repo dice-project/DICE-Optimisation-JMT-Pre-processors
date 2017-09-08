@@ -1,0 +1,409 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="_LnxsMEtcEeeCN-svPGOvLA" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="_LnyTQEtcEeeCN-svPGOvLA">
+      <place id="_Lny6UEtcEeeCN-svPGOvLA">
+        <name>
+          <text>SparkApplication_Start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <transition id="_LnzhYEtcEeeCN-svPGOvLA">
+        <name>
+          <text>SparkApplicationSparkApplication_trans_Start</text>
+        </name>
+      </transition>
+      <transition id="_LnzhYUtcEeeCN-svPGOvLA">
+        <name>
+          <text>SparkApplicationSparkApplication_trans_End</text>
+        </name>
+      </transition>
+      <arc id="_LnzhYktcEeeCN-svPGOvLA" source="_Lny6UEtcEeeCN-svPGOvLA" target="_LnzhYEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LnzhY0tcEeeCN-svPGOvLA" source="_LnzhYUtcEeeCN-svPGOvLA" target="_Lny6UEtcEeeCN-svPGOvLA">
+      </arc>
+      <place id="_Lo_NIEtcEeeCN-svPGOvLA">
+        <name>
+          <text>start_Start</text>
+        </name>
+      </place>
+      <place id="_Lo_NIUtcEeeCN-svPGOvLA">
+        <name>
+          <text>start_Output</text>
+        </name>
+      </place>
+      <transition id="_Lo_NIktcEeeCN-svPGOvLA">
+        <name>
+          <text>startstart_trans</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/exponential">200.0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/tserv/infinite"/>        </toolspecific>
+      </transition>
+      <arc id="_LpAbQEtcEeeCN-svPGOvLA" source="_LnzhYEtcEeeCN-svPGOvLA" target="_Lo_NIEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpBCUEtcEeeCN-svPGOvLA" source="_Lo_NIEtcEeeCN-svPGOvLA" target="_Lo_NIktcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpBCUUtcEeeCN-svPGOvLA" source="_Lo_NIktcEeeCN-svPGOvLA" target="_Lo_NIUtcEeeCN-svPGOvLA">
+      </arc>
+      <place id="_LpCQcEtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_2_Wait</text>
+        </name>
+      </place>
+      <place id="_LpCQcUtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_2_Exec</text>
+        </name>
+      </place>
+      <place id="_LpCQcktcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_2_Done</text>
+        </name>
+      </place>
+      <place id="_LpC3gEtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_2_Output</text>
+        </name>
+      </place>
+      <transition id="_LpC3gUtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_2mapping_2_trans_Gen</text>
+        </name>
+      </transition>
+      <transition id="_LpC3gktcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_2mapping_2_trans_Res</text>
+        </name>
+      </transition>
+      <transition id="_LpDekEtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_2</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/exponential">200.0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/tserv/infinite"/>        </toolspecific>
+      </transition>
+      <transition id="_LpJlMEtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_2mapping_2_trans_Join</text>
+        </name>
+      </transition>
+      <arc id="_LpJlMUtcEeeCN-svPGOvLA" source="_LpC3gUtcEeeCN-svPGOvLA" target="_LpCQcEtcEeeCN-svPGOvLA">
+        <inscription>
+          <text>100</text>
+        </inscription>
+      </arc>
+      <arc id="_LpKMQEtcEeeCN-svPGOvLA" source="_LpCQcEtcEeeCN-svPGOvLA" target="_LpC3gktcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpKMQUtcEeeCN-svPGOvLA" source="_LpC3gktcEeeCN-svPGOvLA" target="_LpCQcUtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpKMQktcEeeCN-svPGOvLA" source="_LpCQcUtcEeeCN-svPGOvLA" target="_LpDekEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpKMQ0tcEeeCN-svPGOvLA" source="_LpDekEtcEeeCN-svPGOvLA" target="_LpCQcktcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpKMREtcEeeCN-svPGOvLA" source="_LpCQcktcEeeCN-svPGOvLA" target="_LpJlMEtcEeeCN-svPGOvLA">
+        <inscription>
+          <text>100</text>
+        </inscription>
+      </arc>
+      <arc id="_LpKMRUtcEeeCN-svPGOvLA" source="_LpJlMEtcEeeCN-svPGOvLA" target="_LpC3gEtcEeeCN-svPGOvLA">
+      </arc>
+      <place id="_LpN2oEtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_3_Wait</text>
+        </name>
+      </place>
+      <place id="_LpN2oUtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_3_Exec</text>
+        </name>
+      </place>
+      <place id="_LpN2oktcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_3_Done</text>
+        </name>
+      </place>
+      <place id="_LpOdsEtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_3_Output</text>
+        </name>
+      </place>
+      <transition id="_LpOdsUtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_3mapping_3_trans_Gen</text>
+        </name>
+      </transition>
+      <transition id="_LpPEwEtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_3mapping_3_trans_Res</text>
+        </name>
+      </transition>
+      <transition id="_LpPEwUtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_3</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/tserv/infinite"/>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/exponential">166.66666666666666</value>        </toolspecific>
+      </transition>
+      <transition id="_LpVLYEtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_3mapping_3_trans_Join</text>
+        </name>
+      </transition>
+      <arc id="_LpVycEtcEeeCN-svPGOvLA" source="_LpOdsUtcEeeCN-svPGOvLA" target="_LpN2oEtcEeeCN-svPGOvLA">
+        <inscription>
+          <text>100</text>
+        </inscription>
+      </arc>
+      <arc id="_LpVycUtcEeeCN-svPGOvLA" source="_LpN2oEtcEeeCN-svPGOvLA" target="_LpPEwEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpVycktcEeeCN-svPGOvLA" source="_LpPEwEtcEeeCN-svPGOvLA" target="_LpN2oUtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpVyc0tcEeeCN-svPGOvLA" source="_LpN2oUtcEeeCN-svPGOvLA" target="_LpPEwUtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpWZgEtcEeeCN-svPGOvLA" source="_LpPEwUtcEeeCN-svPGOvLA" target="_LpN2oktcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpWZgUtcEeeCN-svPGOvLA" source="_LpN2oktcEeeCN-svPGOvLA" target="_LpVLYEtcEeeCN-svPGOvLA">
+        <inscription>
+          <text>100</text>
+        </inscription>
+      </arc>
+      <arc id="_LpWZgktcEeeCN-svPGOvLA" source="_LpVLYEtcEeeCN-svPGOvLA" target="_LpOdsEtcEeeCN-svPGOvLA">
+      </arc>
+      <place id="_LpY1wEtcEeeCN-svPGOvLA">
+        <name>
+          <text>reducing_Wait</text>
+        </name>
+      </place>
+      <place id="_LpY1wUtcEeeCN-svPGOvLA">
+        <name>
+          <text>reducing_Exec</text>
+        </name>
+      </place>
+      <place id="_LpZc0EtcEeeCN-svPGOvLA">
+        <name>
+          <text>reducing_Done</text>
+        </name>
+      </place>
+      <place id="_LpZc0UtcEeeCN-svPGOvLA">
+        <name>
+          <text>reducing_Output</text>
+        </name>
+      </place>
+      <transition id="_LpZc0ktcEeeCN-svPGOvLA">
+        <name>
+          <text>reducingreducing_trans_Gen</text>
+        </name>
+      </transition>
+      <transition id="_LpaD4EtcEeeCN-svPGOvLA">
+        <name>
+          <text>reducingreducing_trans_Res</text>
+        </name>
+      </transition>
+      <transition id="_LpaD4UtcEeeCN-svPGOvLA">
+        <name>
+          <text>reducing</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/tserv/infinite"/>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/exponential">142.85714285714286</value>        </toolspecific>
+      </transition>
+      <transition id="_LpfjcEtcEeeCN-svPGOvLA">
+        <name>
+          <text>reducingreducing_trans_Join</text>
+        </name>
+      </transition>
+      <arc id="_LpgKgEtcEeeCN-svPGOvLA" source="_LpZc0ktcEeeCN-svPGOvLA" target="_LpY1wEtcEeeCN-svPGOvLA">
+        <inscription>
+          <text>100</text>
+        </inscription>
+      </arc>
+      <arc id="_LpgKgUtcEeeCN-svPGOvLA" source="_LpY1wEtcEeeCN-svPGOvLA" target="_LpaD4EtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpgKgktcEeeCN-svPGOvLA" source="_LpaD4EtcEeeCN-svPGOvLA" target="_LpY1wUtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpgKg0tcEeeCN-svPGOvLA" source="_LpY1wUtcEeeCN-svPGOvLA" target="_LpaD4UtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpgxkEtcEeeCN-svPGOvLA" source="_LpaD4UtcEeeCN-svPGOvLA" target="_LpZc0EtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpgxkUtcEeeCN-svPGOvLA" source="_LpZc0EtcEeeCN-svPGOvLA" target="_LpfjcEtcEeeCN-svPGOvLA">
+        <inscription>
+          <text>100</text>
+        </inscription>
+      </arc>
+      <arc id="_LpgxkktcEeeCN-svPGOvLA" source="_LpfjcEtcEeeCN-svPGOvLA" target="_LpZc0UtcEeeCN-svPGOvLA">
+      </arc>
+      <place id="_LplqEEtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_Wait</text>
+        </name>
+      </place>
+      <place id="_LplqEUtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_Exec</text>
+        </name>
+      </place>
+      <place id="_LplqEktcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_Done</text>
+        </name>
+      </place>
+      <place id="_LplqE0tcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping_Output</text>
+        </name>
+      </place>
+      <transition id="_LpmRIEtcEeeCN-svPGOvLA">
+        <name>
+          <text>mappingmapping_trans_Gen</text>
+        </name>
+      </transition>
+      <transition id="_LpmRIUtcEeeCN-svPGOvLA">
+        <name>
+          <text>mappingmapping_trans_Res</text>
+        </name>
+      </transition>
+      <transition id="_Lpm4MEtcEeeCN-svPGOvLA">
+        <name>
+          <text>mapping</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/tserv/infinite"/>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/exponential">100.0</value>        </toolspecific>
+      </transition>
+      <transition id="_LprJoEtcEeeCN-svPGOvLA">
+        <name>
+          <text>mappingmapping_trans_Join</text>
+        </name>
+      </transition>
+      <arc id="_LprwsEtcEeeCN-svPGOvLA" source="_LpmRIEtcEeeCN-svPGOvLA" target="_LplqEEtcEeeCN-svPGOvLA">
+        <inscription>
+          <text>100</text>
+        </inscription>
+      </arc>
+      <arc id="_LprwsUtcEeeCN-svPGOvLA" source="_LplqEEtcEeeCN-svPGOvLA" target="_LpmRIUtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LprwsktcEeeCN-svPGOvLA" source="_LpmRIUtcEeeCN-svPGOvLA" target="_LplqEUtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lprws0tcEeeCN-svPGOvLA" source="_LplqEUtcEeeCN-svPGOvLA" target="_Lpm4MEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LprwtEtcEeeCN-svPGOvLA" source="_Lpm4MEtcEeeCN-svPGOvLA" target="_LplqEktcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpsXwEtcEeeCN-svPGOvLA" source="_LplqEktcEeeCN-svPGOvLA" target="_LprJoEtcEeeCN-svPGOvLA">
+        <inscription>
+          <text>100</text>
+        </inscription>
+      </arc>
+      <arc id="_LpsXwUtcEeeCN-svPGOvLA" source="_LprJoEtcEeeCN-svPGOvLA" target="_LplqE0tcEeeCN-svPGOvLA">
+      </arc>
+      <transition id="_LpuM8EtcEeeCN-svPGOvLA">
+        <name>
+          <text>ForkFork_trans_Gen</text>
+        </name>
+      </transition>
+      <arc id="_LpuM8UtcEeeCN-svPGOvLA" source="_LplqE0tcEeeCN-svPGOvLA" target="_LpuM8EtcEeeCN-svPGOvLA">
+      </arc>
+      <transition id="_Lpu0AEtcEeeCN-svPGOvLA">
+        <name>
+          <text>JoinJoin_trans_Gen</text>
+        </name>
+      </transition>
+      <place id="_LpvbEEtcEeeCN-svPGOvLA">
+        <name>
+          <text>Join_Output</text>
+        </name>
+      </place>
+      <arc id="_LpvbEUtcEeeCN-svPGOvLA" source="_Lpu0AEtcEeeCN-svPGOvLA" target="_LpvbEEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpwCIEtcEeeCN-svPGOvLA" source="_Lo_NIUtcEeeCN-svPGOvLA" target="_LpmRIEtcEeeCN-svPGOvLA">
+      </arc>
+      <place id="_LpwCIUtcEeeCN-svPGOvLA">
+        <name>
+          <text>_LpwCIUtcEeeCN-svPGOvLA_Output</text>
+        </name>
+      </place>
+      <arc id="_LpwpMEtcEeeCN-svPGOvLA" source="_LpuM8EtcEeeCN-svPGOvLA" target="_LpwCIUtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpwpMUtcEeeCN-svPGOvLA" source="_LpwCIUtcEeeCN-svPGOvLA" target="_LpC3gUtcEeeCN-svPGOvLA">
+      </arc>
+      <place id="_LpxQQEtcEeeCN-svPGOvLA">
+        <name>
+          <text>_LpxQQEtcEeeCN-svPGOvLA_Output</text>
+        </name>
+      </place>
+      <arc id="_LpxQQUtcEeeCN-svPGOvLA" source="_LpuM8EtcEeeCN-svPGOvLA" target="_LpxQQEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpxQQktcEeeCN-svPGOvLA" source="_LpxQQEtcEeeCN-svPGOvLA" target="_LpOdsUtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lpx3UEtcEeeCN-svPGOvLA" source="_LpC3gEtcEeeCN-svPGOvLA" target="_Lpu0AEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpyeYEtcEeeCN-svPGOvLA" source="_LpvbEEtcEeeCN-svPGOvLA" target="_LpZc0ktcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpyeYUtcEeeCN-svPGOvLA" source="_LpOdsEtcEeeCN-svPGOvLA" target="_Lpu0AEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_LpzFcEtcEeeCN-svPGOvLA" source="_LpZc0UtcEeeCN-svPGOvLA" target="_LnzhYUtcEeeCN-svPGOvLA">
+      </arc>
+      <place id="_Lp0TkEtcEeeCN-svPGOvLA">
+        <name>
+          <text>SparkApplication_AssignedCores</text>
+        </name>
+        <initialMarking>
+          <text>7</text>
+        </initialMarking>
+      </place>
+      <place id="_Lp5MEEtcEeeCN-svPGOvLA">
+        <name>
+          <text>Core_Res</text>
+        </name>
+        <initialMarking>
+          <text>7</text>
+        </initialMarking>
+      </place>
+      <arc id="_Lp8PYEtcEeeCN-svPGOvLA" source="_LpDekEtcEeeCN-svPGOvLA" target="_Lp5MEEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp8PYUtcEeeCN-svPGOvLA" source="_Lp5MEEtcEeeCN-svPGOvLA" target="_LpC3gktcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp8PYktcEeeCN-svPGOvLA" source="_LpDekEtcEeeCN-svPGOvLA" target="_Lp0TkEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp8PY0tcEeeCN-svPGOvLA" source="_Lp0TkEtcEeeCN-svPGOvLA" target="_LpC3gktcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp82cEtcEeeCN-svPGOvLA" source="_LpPEwUtcEeeCN-svPGOvLA" target="_Lp5MEEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp82cUtcEeeCN-svPGOvLA" source="_Lp5MEEtcEeeCN-svPGOvLA" target="_LpPEwEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp82cktcEeeCN-svPGOvLA" source="_LpPEwUtcEeeCN-svPGOvLA" target="_Lp0TkEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp9dgEtcEeeCN-svPGOvLA" source="_Lp0TkEtcEeeCN-svPGOvLA" target="_LpPEwEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp9dgUtcEeeCN-svPGOvLA" source="_Lpm4MEtcEeeCN-svPGOvLA" target="_Lp5MEEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp-EkEtcEeeCN-svPGOvLA" source="_Lp5MEEtcEeeCN-svPGOvLA" target="_LpmRIUtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp-EkUtcEeeCN-svPGOvLA" source="_Lpm4MEtcEeeCN-svPGOvLA" target="_Lp0TkEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp-EkktcEeeCN-svPGOvLA" source="_Lp0TkEtcEeeCN-svPGOvLA" target="_LpmRIUtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp_SsEtcEeeCN-svPGOvLA" source="_LpaD4UtcEeeCN-svPGOvLA" target="_Lp5MEEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp_SsUtcEeeCN-svPGOvLA" source="_Lp5MEEtcEeeCN-svPGOvLA" target="_LpaD4EtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp_SsktcEeeCN-svPGOvLA" source="_LpaD4UtcEeeCN-svPGOvLA" target="_Lp0TkEtcEeeCN-svPGOvLA">
+      </arc>
+      <arc id="_Lp_Ss0tcEeeCN-svPGOvLA" source="_Lp0TkEtcEeeCN-svPGOvLA" target="_LpaD4EtcEeeCN-svPGOvLA">
+      </arc>
+    </page>
+    <name>
+      <text>SparkApplication</text>
+    </name>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/units/basetimeunit">s</value>    </toolspecific>
+  </net>
+</pnml>

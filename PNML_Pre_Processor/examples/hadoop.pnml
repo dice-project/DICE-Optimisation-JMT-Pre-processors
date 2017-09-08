@@ -1,0 +1,880 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="_-8YioEYAEeebvqsWLzEO0Q" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="_-8YioUYAEeebvqsWLzEO0Q">
+      <place id="_-9adYEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_start_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">3</value>        </toolspecific>
+      </place>
+      <place id="_-9adYUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_start_id_0_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_0_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">3</value>        </toolspecific>
+      </place>
+      <place id="_-9bEcEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_start_Gen_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_0_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <transition id="_-9bEcUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_start_trans_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/exponential">0.07692307692307693</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/tserv/infinite"/>        </toolspecific>
+      </transition>
+      <arc id="_-9brgEYAEeebvqsWLzEO0Q" source="_-9adYEYAEeebvqsWLzEO0Q" target="_-9bEcUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-9cSkEYAEeebvqsWLzEO0Q" source="_-9bEcUYAEeebvqsWLzEO0Q" target="_-9bEcEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_0_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-9cSkUYAEeebvqsWLzEO0Q" source="_-9bEcUYAEeebvqsWLzEO0Q" target="_-9adYUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_0_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </arc>
+      <arc id="_-9cSkkYAEeebvqsWLzEO0Q" source="_-9adYUYAEeebvqsWLzEO0Q" target="_-9bEcUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_0_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <place id="_-9eHwEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_start_test_start_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">4</value>        </toolspecific>
+      </place>
+      <place id="_-9eHwUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_start_id_1_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_1_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">4</value>        </toolspecific>
+      </place>
+      <place id="_-9eHwkYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_start_Gen_test_start_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_1_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <transition id="_-9eu0EYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_start_trans_test_start_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/exponential">0.07142857142857142</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/tserv/infinite"/>        </toolspecific>
+      </transition>
+      <arc id="_-9fV4EYAEeebvqsWLzEO0Q" source="_-9eHwEYAEeebvqsWLzEO0Q" target="_-9eu0EYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-9fV4UYAEeebvqsWLzEO0Q" source="_-9eu0EYAEeebvqsWLzEO0Q" target="_-9eHwkYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_1_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-9fV4kYAEeebvqsWLzEO0Q" source="_-9eu0EYAEeebvqsWLzEO0Q" target="_-9eHwUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_1_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </arc>
+      <arc id="_-9fV40YAEeebvqsWLzEO0Q" source="_-9eHwUYAEeebvqsWLzEO0Q" target="_-9eu0EYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_1_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <place id="_-9jAQUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_reducing_Wait_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <place id="_-9jAQkYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_reducing_Exec_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <place id="_-9jAQ0YAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_reducing_Done_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <transition id="_-9jnUEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_reducing_trans_Res_test_reducing_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/immediatepriority">2</value>        </toolspecific>
+      </transition>
+      <transition id="_-9jnUUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_reducing_trans_test_reducing_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/exponential">90.90909090909092</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/tserv/infinite"/>        </toolspecific>
+      </transition>
+      <transition id="_-9nRsEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_reducing_trans_Join_test_reducing_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">2</value>        </toolspecific>
+      </transition>
+      <arc id="_-9n4wEYAEeebvqsWLzEO0Q" source="_-9jAQUYAEeebvqsWLzEO0Q" target="_-9jnUEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-9n4wUYAEeebvqsWLzEO0Q" source="_-9jnUEYAEeebvqsWLzEO0Q" target="_-9jAQkYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-9n4wkYAEeebvqsWLzEO0Q" source="_-9jAQkYAEeebvqsWLzEO0Q" target="_-9jnUUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-9of0EYAEeebvqsWLzEO0Q" source="_-9jnUUYAEeebvqsWLzEO0Q" target="_-9jAQ0YAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-9of0UYAEeebvqsWLzEO0Q" source="_-9jAQ0YAEeebvqsWLzEO0Q" target="_-9nRsEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">9</value>        </toolspecific>
+      </arc>
+      <place id="_-9qVAUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_reducing_Wait_test_start_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <place id="_-9qVAkYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_reducing_Exec_test_start_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <place id="_-9q8EEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_reducing_Done_test_start_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <transition id="_-9rjIEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_reducing_trans_Res_test_reducing_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/immediatepriority">2</value>        </toolspecific>
+      </transition>
+      <transition id="_-9rjIUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_reducing_trans_test_reducing_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/tserv/infinite"/>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/exponential">83.33333333333333</value>        </toolspecific>
+      </transition>
+      <transition id="_-9v0kEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_reducing_trans_Join_test_reducing_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">2</value>        </toolspecific>
+      </transition>
+      <arc id="_-9wboEYAEeebvqsWLzEO0Q" source="_-9qVAUYAEeebvqsWLzEO0Q" target="_-9rjIEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-9wboUYAEeebvqsWLzEO0Q" source="_-9rjIEYAEeebvqsWLzEO0Q" target="_-9qVAkYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-9wbokYAEeebvqsWLzEO0Q" source="_-9qVAkYAEeebvqsWLzEO0Q" target="_-9rjIUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-9xCsEYAEeebvqsWLzEO0Q" source="_-9rjIUYAEeebvqsWLzEO0Q" target="_-9q8EEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-9xCsUYAEeebvqsWLzEO0Q" source="_-9q8EEYAEeebvqsWLzEO0Q" target="_-9v0kEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">10</value>        </toolspecific>
+      </arc>
+      <place id="_-91UIEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_Wait_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <place id="_-91UIUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_Exec_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <place id="_-91UIkYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_Done_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <transition id="_-917MEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_trans_Gen_test_mapping_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">5</value>        </toolspecific>
+      </transition>
+      <transition id="_-92iQEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_trans_Res_test_mapping_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/immediatepriority">2</value>        </toolspecific>
+      </transition>
+      <transition id="_-92iQUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_trans_test_mapping_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/tserv/infinite"/>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/exponential">1000.0</value>        </toolspecific>
+      </transition>
+      <transition id="_-96zsEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_trans_Join_test_mapping_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">5</value>        </toolspecific>
+      </transition>
+      <arc id="_-97awEYAEeebvqsWLzEO0Q" source="_-9bEcEYAEeebvqsWLzEO0Q" target="_-917MEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_0_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-97awUYAEeebvqsWLzEO0Q" source="_-917MEYAEeebvqsWLzEO0Q" target="_-91UIEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">5</value>        </toolspecific>
+      </arc>
+      <arc id="_-97awkYAEeebvqsWLzEO0Q" source="_-91UIEYAEeebvqsWLzEO0Q" target="_-92iQEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-98o4EYAEeebvqsWLzEO0Q" source="_-92iQEYAEeebvqsWLzEO0Q" target="_-91UIUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-98o4UYAEeebvqsWLzEO0Q" source="_-91UIUYAEeebvqsWLzEO0Q" target="_-92iQUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-98o4kYAEeebvqsWLzEO0Q" source="_-92iQUYAEeebvqsWLzEO0Q" target="_-91UIkYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_-99P8EYAEeebvqsWLzEO0Q" source="_-91UIkYAEeebvqsWLzEO0Q" target="_-96zsEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">5</value>        </toolspecific>
+      </arc>
+      <place id="_-9_FIUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_Wait_test_start_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <place id="_-9_sMEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_Exec_test_start_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <place id="_-9_sMUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_Done_test_start_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <transition id="_-9_sMkYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_trans_Gen_test_mapping_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">6</value>        </toolspecific>
+      </transition>
+      <transition id="_--ATQEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_trans_Res_test_mapping_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/immediatepriority">2</value>        </toolspecific>
+      </transition>
+      <transition id="_--ATQUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_trans_test_mapping_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/exponential">500.0</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/tserv/infinite"/>        </toolspecific>
+      </transition>
+      <transition id="_--DWkEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_trans_Join_test_mapping_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">6</value>        </toolspecific>
+      </transition>
+      <arc id="_--DWkUYAEeebvqsWLzEO0Q" source="_-9eHwkYAEeebvqsWLzEO0Q" target="_-9_sMkYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_1_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--DWkkYAEeebvqsWLzEO0Q" source="_-9_sMkYAEeebvqsWLzEO0Q" target="_-9_FIUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">6</value>        </toolspecific>
+      </arc>
+      <arc id="_--DWk0YAEeebvqsWLzEO0Q" source="_-9_FIUYAEeebvqsWLzEO0Q" target="_--ATQEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--DWlEYAEeebvqsWLzEO0Q" source="_--ATQEYAEeebvqsWLzEO0Q" target="_-9_sMEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--D9oEYAEeebvqsWLzEO0Q" source="_-9_sMEYAEeebvqsWLzEO0Q" target="_--ATQUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--D9oUYAEeebvqsWLzEO0Q" source="_--ATQUYAEeebvqsWLzEO0Q" target="_-9_sMUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--D9okYAEeebvqsWLzEO0Q" source="_-9_sMUYAEeebvqsWLzEO0Q" target="_--DWkEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">6</value>        </toolspecific>
+      </arc>
+      <place id="_--GZ4EYAEeebvqsWLzEO0Q">
+        <name>
+          <text>end_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <transition id="_--GZ4UYAEeebvqsWLzEO0Q">
+        <name>
+          <text>end_trans_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </transition>
+      <arc id="_--GZ4kYAEeebvqsWLzEO0Q" source="_-9nRsEYAEeebvqsWLzEO0Q" target="_--GZ4EYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--HA8EYAEeebvqsWLzEO0Q" source="_--GZ4EYAEeebvqsWLzEO0Q" target="_--GZ4UYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--HA8UYAEeebvqsWLzEO0Q" source="_--GZ4UYAEeebvqsWLzEO0Q" target="_-9adYEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <place id="_--IPEEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>end_test_start_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <transition id="_--IPEUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>end_trans_test_start_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </transition>
+      <arc id="_--I2IEYAEeebvqsWLzEO0Q" source="_-9v0kEYAEeebvqsWLzEO0Q" target="_--IPEEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--I2IUYAEeebvqsWLzEO0Q" source="_--IPEEYAEeebvqsWLzEO0Q" target="_--IPEUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--I2IkYAEeebvqsWLzEO0Q" source="_--IPEUYAEeebvqsWLzEO0Q" target="_-9eHwEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <place id="_--MggEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>Red_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <place id="_--MggUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>Id_id_0_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_0_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">3</value>        </toolspecific>
+      </place>
+      <transition id="_--NHkEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>_--NHkEYAEeebvqsWLzEO0Q_trans</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">3</value>        </toolspecific>
+      </transition>
+      <arc id="_--NHkUYAEeebvqsWLzEO0Q" source="_-96zsEYAEeebvqsWLzEO0Q" target="_--MggEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--NHkkYAEeebvqsWLzEO0Q" source="_-96zsEYAEeebvqsWLzEO0Q" target="_-9jAQUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">9</value>        </toolspecific>
+      </arc>
+      <arc id="_--NuoEYAEeebvqsWLzEO0Q" source="_--MggEYAEeebvqsWLzEO0Q" target="_--NHkEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--NuoUYAEeebvqsWLzEO0Q" source="_--NHkEYAEeebvqsWLzEO0Q" target="_--MggUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_0_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </arc>
+      <arc id="_--NuokYAEeebvqsWLzEO0Q" source="_-917MEYAEeebvqsWLzEO0Q" target="_--MggUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_0_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--Nuo0YAEeebvqsWLzEO0Q" source="_--MggUYAEeebvqsWLzEO0Q" target="_--NHkEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_0_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--OVsEYAEeebvqsWLzEO0Q" source="_--MggUYAEeebvqsWLzEO0Q" target="_-917MEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_0_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--OVsUYAEeebvqsWLzEO0Q" source="_-9jAQUYAEeebvqsWLzEO0Q" target="_--NHkEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">9</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/akind/inhibitor"/>        </toolspecific>
+      </arc>
+      <place id="_--Qx8EYAEeebvqsWLzEO0Q">
+        <name>
+          <text>Red_test_start_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </place>
+      <place id="_--RZAEYAEeebvqsWLzEO0Q">
+        <name>
+          <text>Id_id_1_test_start_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_1_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">4</value>        </toolspecific>
+      </place>
+      <transition id="_--RZAUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>_--RZAUYAEeebvqsWLzEO0Q_trans</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">4</value>        </toolspecific>
+      </transition>
+      <arc id="_--SAEEYAEeebvqsWLzEO0Q" source="_--DWkEYAEeebvqsWLzEO0Q" target="_--Qx8EYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--SAEUYAEeebvqsWLzEO0Q" source="_--DWkEYAEeebvqsWLzEO0Q" target="_-9qVAUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">10</value>        </toolspecific>
+      </arc>
+      <arc id="_--SAEkYAEeebvqsWLzEO0Q" source="_--Qx8EYAEeebvqsWLzEO0Q" target="_--RZAUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--SAE0YAEeebvqsWLzEO0Q" source="_--RZAUYAEeebvqsWLzEO0Q" target="_--RZAEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_1_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value>        </toolspecific>
+      </arc>
+      <arc id="_--SnIEYAEeebvqsWLzEO0Q" source="_-9_sMkYAEeebvqsWLzEO0Q" target="_--RZAEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_1_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--SnIUYAEeebvqsWLzEO0Q" source="_--RZAEYAEeebvqsWLzEO0Q" target="_--RZAUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_1_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--SnIkYAEeebvqsWLzEO0Q" source="_--RZAEYAEeebvqsWLzEO0Q" target="_-9_sMkYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_1_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--SnI0YAEeebvqsWLzEO0Q" source="_-9qVAUYAEeebvqsWLzEO0Q" target="_--RZAUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">10</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/akind/inhibitor"/>        </toolspecific>
+      </arc>
+      <place id="_--T1QUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_start_Res</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">7</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">8</value>        </toolspecific>
+      </place>
+      <arc id="_--XfoEYAEeebvqsWLzEO0Q" source="_-92iQUYAEeebvqsWLzEO0Q" target="_--T1QUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--YGsEYAEeebvqsWLzEO0Q" source="_--T1QUYAEeebvqsWLzEO0Q" target="_-92iQEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <transition id="_--YGsUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_trans_Res_test_mapping_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">-1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/immediatepriority">1</value>        </toolspecific>
+      </transition>
+      <arc id="_--YtwEYAEeebvqsWLzEO0Q" source="_--T1QUYAEeebvqsWLzEO0Q" target="_--YGsUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--YtwUYAEeebvqsWLzEO0Q" source="_-91UIEYAEeebvqsWLzEO0Q" target="_--YGsUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--YtwkYAEeebvqsWLzEO0Q" source="_--YGsUYAEeebvqsWLzEO0Q" target="_-91UIUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--ZU0EYAEeebvqsWLzEO0Q" source="_--ATQUYAEeebvqsWLzEO0Q" target="_--T1QUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--Z74EYAEeebvqsWLzEO0Q" source="_--T1QUYAEeebvqsWLzEO0Q" target="_--ATQEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <transition id="_--ai8EYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_mapping_trans_Res_test_mapping_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">-1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/immediatepriority">1</value>        </toolspecific>
+      </transition>
+      <arc id="_--ai8UYAEeebvqsWLzEO0Q" source="_--T1QUYAEeebvqsWLzEO0Q" target="_--ai8EYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--ai8kYAEeebvqsWLzEO0Q" source="_-9_FIUYAEeebvqsWLzEO0Q" target="_--ai8EYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--ai80YAEeebvqsWLzEO0Q" source="_--ai8EYAEeebvqsWLzEO0Q" target="_-9_sMEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--cYIEYAEeebvqsWLzEO0Q" source="_-9jnUUYAEeebvqsWLzEO0Q" target="_--T1QUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--c_MEYAEeebvqsWLzEO0Q" source="_--T1QUYAEeebvqsWLzEO0Q" target="_-9jnUEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <transition id="_--c_MUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_reducing_trans_Res_test_reducing_0</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">-1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/immediatepriority">1</value>        </toolspecific>
+      </transition>
+      <arc id="_--dmQEYAEeebvqsWLzEO0Q" source="_--T1QUYAEeebvqsWLzEO0Q" target="_--c_MUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--dmQUYAEeebvqsWLzEO0Q" source="_-9jAQUYAEeebvqsWLzEO0Q" target="_--c_MUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--dmQkYAEeebvqsWLzEO0Q" source="_--c_MUYAEeebvqsWLzEO0Q" target="_-9jAQkYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--e0YEYAEeebvqsWLzEO0Q" source="_-9rjIUYAEeebvqsWLzEO0Q" target="_--T1QUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--fbcEYAEeebvqsWLzEO0Q" source="_--T1QUYAEeebvqsWLzEO0Q" target="_-9rjIEYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <transition id="_--fbcUYAEeebvqsWLzEO0Q">
+        <name>
+          <text>test_reducing_trans_Res_test_reducing_1</text>
+        </name>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">-1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/immediatepriority">1</value>        </toolspecific>
+      </transition>
+      <arc id="_--gCgEYAEeebvqsWLzEO0Q" source="_--T1QUYAEeebvqsWLzEO0Q" target="_--fbcUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--gCgUYAEeebvqsWLzEO0Q" source="_-9qVAUYAEeebvqsWLzEO0Q" target="_--fbcUYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+      <arc id="_--gCgkYAEeebvqsWLzEO0Q" source="_--fbcUYAEeebvqsWLzEO0Q" target="_-9qVAkYAEeebvqsWLzEO0Q">
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+        <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value>        </toolspecific>
+      </arc>
+    </page>
+    <name>
+      <text>MRprocess</text>
+    </name>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/colorset">id_0_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/colorset">1</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_0_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">3</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/colorset">id_1_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/colorset">1</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">id_1_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">4</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/colorset">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/colorset">0</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">3</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">4</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/units/basetimeunit">s</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/colorset">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/colorset">0</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">9</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_reducing</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">10</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/colorset">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/colorset">0</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">5</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">test_mapping</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">6</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/colorset">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/colorset">0</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">0</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">7</value>    </toolspecific>
+    <toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/color/color">1</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">Resources_test_start</value><value grammar="http://es.unizar.dsico/pnconstants/color/color">8</value>    </toolspecific>
+  </net>
+</pnml>

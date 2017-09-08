@@ -1,0 +1,110 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+<net id="_o9QM4PhkEeaTptWKeDl3fQ" type="http://www.pnml.org/version-2009/grammar/ptnet">
+<page id="_o9W6kPhkEeaTptWKeDl3fQ">
+<transition id="_o_-JsPhkEeaTptWKeDl3fQ">
+<name>
+  <text>WikiArticleSpout</text>
+</name>
+<toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/tserv/infinite"/></toolspecific>
+<toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/exponential">0.2857142857142857</value></toolspecific>
+</transition>
+<place id="_pBho4PhkEeaTptWKeDl3fQ">
+<name>
+  <text>WikiArticleSpout_parallelism</text>
+</name>
+<initialMarking>
+  <text>2</text>
+</initialMarking>
+</place>
+<arc id="_pBoWkPhkEeaTptWKeDl3fQ" source="_o_-JsPhkEeaTptWKeDl3fQ" target="_pBho4PhkEeaTptWKeDl3fQ">
+</arc>
+<arc id="_pBoWkfhkEeaTptWKeDl3fQ" source="_pBho4PhkEeaTptWKeDl3fQ" target="_o_-JsPhkEeaTptWKeDl3fQ">
+</arc>
+<place id="_pBrZ4PhkEeaTptWKeDl3fQ">
+<name>
+  <text>LinkCounterBolt</text>
+</name>
+</place>
+<place id="_pBsA8PhkEeaTptWKeDl3fQ">
+<name>
+  <text>LinkCounterBolt_parallelism</text>
+</name>
+<initialMarking>
+  <text>5</text>
+</initialMarking>
+</place>
+<transition id="_pBudMPhkEeaTptWKeDl3fQ">
+<name>
+  <text>LinkCounterBolt</text>
+</name>
+<toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.disco/pnconstants/tkind/exponential">0.2</value></toolspecific>
+<toolspecific tool="DICE PNML Extensions" version="0.1">
+<value grammar="http://es.unizar.dsico/pnconstants/tserv/infinite"/></toolspecific>
+</transition>
+<arc id="_pB-U0PhkEeaTptWKeDl3fQ" source="_pBrZ4PhkEeaTptWKeDl3fQ" target="_pBudMPhkEeaTptWKeDl3fQ">
+</arc>
+<arc id="_pB-74PhkEeaTptWKeDl3fQ" source="_pBudMPhkEeaTptWKeDl3fQ" target="_pBsA8PhkEeaTptWKeDl3fQ">
+</arc>
+<place id="_pCB_MPhkEeaTptWKeDl3fQ">
+<name>
+  <text>_pCB_MPhkEeaTptWKeDl3fQ</text>
+</name>
+</place>
+<arc id="_pCCmQPhkEeaTptWKeDl3fQ" source="_o_-JsPhkEeaTptWKeDl3fQ" target="_pCB_MPhkEeaTptWKeDl3fQ">
+<inscription>
+  <text>5</text>
+</inscription>
+</arc>
+<transition id="_pCIs4PhkEeaTptWKeDl3fQ">
+<name>
+  <text>_pCIs4PhkEeaTptWKeDl3fQ</text>
+</name>
+</transition>
+<arc id="_pCIs4fhkEeaTptWKeDl3fQ" source="_pCB_MPhkEeaTptWKeDl3fQ" target="_pCIs4PhkEeaTptWKeDl3fQ">
+<inscription>
+  <text>20</text>
+</inscription>
+</arc>
+<arc id="_pCJT8PhkEeaTptWKeDl3fQ" source="_pBsA8PhkEeaTptWKeDl3fQ" target="_pCIs4PhkEeaTptWKeDl3fQ">
+</arc>
+<arc id="_pCJ7APhkEeaTptWKeDl3fQ" source="_pCIs4PhkEeaTptWKeDl3fQ" target="_pBrZ4PhkEeaTptWKeDl3fQ">
+</arc>
+<transition id="_pCRPwPhkEeaTptWKeDl3fQ">
+<name>
+  <text>Final_transition</text>
+</name>
+</transition>
+<place id="_pCRPwfhkEeaTptWKeDl3fQ">
+<name>
+  <text>Final</text>
+</name>
+</place>
+<arc id="_pCR20PhkEeaTptWKeDl3fQ" source="_pBudMPhkEeaTptWKeDl3fQ" target="_pCRPwfhkEeaTptWKeDl3fQ">
+</arc>
+<arc id="_pCR20fhkEeaTptWKeDl3fQ" source="_pCRPwfhkEeaTptWKeDl3fQ" target="_pCRPwPhkEeaTptWKeDl3fQ">
+</arc>
+<place id="_pEmyEPhkEeaTptWKeDl3fQ">
+<name>
+  <text>Partition1</text>
+</name>
+<initialMarking>
+  <text>3</text>
+</initialMarking>
+</place>
+<arc id="_pEonQPhkEeaTptWKeDl3fQ" source="_o_-JsPhkEeaTptWKeDl3fQ" target="_pEmyEPhkEeaTptWKeDl3fQ">
+</arc>
+<arc id="_pEpOUPhkEeaTptWKeDl3fQ" source="_pEmyEPhkEeaTptWKeDl3fQ" target="_o_-JsPhkEeaTptWKeDl3fQ">
+</arc>
+<arc id="_pEqccPhkEeaTptWKeDl3fQ" source="_pEmyEPhkEeaTptWKeDl3fQ" target="_pCIs4PhkEeaTptWKeDl3fQ">
+</arc>
+<arc id="_pEqccfhkEeaTptWKeDl3fQ" source="_pBudMPhkEeaTptWKeDl3fQ" target="_pEmyEPhkEeaTptWKeDl3fQ">
+</arc>
+</page>
+<name>
+  <text>Topology</text>
+</name>
+</net>
+</pnml>

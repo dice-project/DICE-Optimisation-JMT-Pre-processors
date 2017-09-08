@@ -1,0 +1,13 @@
+<template_mapreduce name="MapReduce 1">
+	<input name=""></input>
+	<fork>
+		<map>3</map>
+		<red>3</red>
+	</fork>
+	<mapper>2</mapper>
+	<semaphore>
+		<class name="">2</class>
+	</semaphore>
+	<reducer>2</reducer>
+	<output name=""></output>
+</template_mapreduce>

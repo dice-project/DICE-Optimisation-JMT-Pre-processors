@@ -1,0 +1,29 @@
+{
+  "Nodes": [
+    {
+      "name": "Bolt 1",
+      "paralellism_level": "2",
+      "input_degree": "2"
+    },
+    {
+      "name": "Bolt 2",
+      "paralellism_level": "2",
+      "input_degree": "2"
+    },
+    {
+      "name": "Bolt 3",
+      "paralellism_level": "3",
+      "input_degree": "3"
+    }
+  ],
+  "Connections": [
+    {
+      "source": "Bolt 1",
+      "target": "Bolt 2"
+    },
+    {
+      "source": "Bolt 2",
+      "target": "Bolt 3"
+    }
+  ]
+}
