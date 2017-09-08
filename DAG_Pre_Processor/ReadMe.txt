@@ -6,10 +6,10 @@ An example of input and output files can be found in the examples folder.
 
 In order to compile you should run:
 
-javac -cp ".\lib\*" -d .\bin\ .\src\DAG_Pre_Processor.java
+javac -cp "..\lib\*" -d .\bin\ .\src\DAG_Pre_Processor.java
 
 In order to execute you should run:
 
-java -cp ".\bin;.\lib\*" DAG_Pre_Processor [PATH TO INPUT FILE] [PATH TO OUTPUT FILE]
+java -cp ".\bin;..\lib\*" DAG_Pre_Processor [PATH TO INPUT FILE] [PATH TO OUTPUT FILE]
 
 For Linux, "\" and ";" should be replaced with "/" and ":" respectively.
