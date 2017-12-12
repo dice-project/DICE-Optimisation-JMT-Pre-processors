@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <archive xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="storm.jsimg" timestamp="Mon Jun 12 09:04:26 BST 2017" xsi:noNamespaceSchemaLocation="Archive.xsd">
-<sim disableStatisticStop="false" logDecimalSeparator="." logDelimiter="," logPath="C:\Users\Administrator/JMT/" logReplaceMode="0" maxSamples="1000000" name="storm.jsimg" polling="1.0" xsi:noNamespaceSchemaLocation="SIMmodeldefinition.xsd">
+<sim disableStatisticStop="false" logDecimalSeparator="." logDelimiter="," logPath="" logReplaceMode="0" maxSamples="1000000" name="storm.jsimg" polling="1.0" xsi:noNamespaceSchemaLocation="SIMmodeldefinition.xsd">
 <userClass customers="10" name="Token" priority="0" referenceSource="_pBho4PhkEeaTptWKeDl3fQ" type="closed"/>
 <node name="_pBho4PhkEeaTptWKeDl3fQ">
 <section className="Storage">

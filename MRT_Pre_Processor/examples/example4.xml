@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <archive xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="example4.jsimg" timestamp="Sat Nov 05 01:57:35 GMT 2016" xsi:noNamespaceSchemaLocation="Archive.xsd">
-<sim disableStatisticStop="false" logDecimalSeparator="." logDelimiter=";" logPath="C:\Users\Administrator/JMT/" logReplaceMode="0" maxSamples="1000000" name="example4.jsimg" polling="1.0" xsi:noNamespaceSchemaLocation="SIMmodeldefinition.xsd">
+<sim disableStatisticStop="false" logDecimalSeparator="." logDelimiter=";" logPath="" logReplaceMode="0" maxSamples="1000000" name="example4.jsimg" polling="1.0" xsi:noNamespaceSchemaLocation="SIMmodeldefinition.xsd">
 <userClass name="Class5" priority="0" referenceSource="Source 1" type="open"/>
 <node name="Source 1">
 <section className="RandomSource">
